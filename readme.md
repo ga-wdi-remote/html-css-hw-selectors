@@ -19,22 +19,31 @@ flag down an instructor right away.
 #### Directions
 
 1.  In `style.css` use CSS selectors, including advanced and/or pseudo selectors, and CSS properties to recreate the layout seen below. You will *not* be modifying any of the HTML in `index.html`, as it is provided already. The logo image is provided for you in the `images` directory.
-  - The `<nav>` should be made into a nav bar that spans the entire width of the page, a height of 50px, white font, and the `<li>` links spaced out without the bullet points
-  - Hovering over the `<nav>` links' should turn the links' background lightblue.
-  - The logo should be 100px wide and centered in the page
-  - The first `<h1>` should be blue and font-size larger than a normal h1 tag
-  - The 2 menus' outer divs should be lightblue, the inner should be white
-  - All headings should be centered
-  - The bottom `<h3>` in the menus should be underlined
-  - The `<span>` prices should be on the right side
-  - The menu `<li>` should have square bullets
-  - Every odd number `<li>` in the menu should be colored orange
+
+After completing each spec, make a commit with the message being the spec itself.
+
+##### Specifications:
+  - To begin, set ALL elements to `padding: 0; margin: 0`
+  - The `<nav>` spans the entire width of the page, with a height of 50px, and has white text
+  - The nav `<li>` links are spaced out without the bullet points
+  - Hovering over the `<nav>` links turn the links' background to lightblue.
+  - The logo is 100px wide and centered in the page
+  - The first `<h1>` is blue and its font-size is 3x larger than a normal h1 tag
+  - All divs are centered on the page. The 2 menus' outer divs are lightblue, the inner divs are white with rounded corners
+  - All headings are centered
+  - The bottom `<h3>` in the menus are underlined
+  - The `<span>` prices are aligned on the right side of its div
+  - The main menus' `<li>` have square bullets
+  - Every other `<li>` is colored orange, starting with the first one
 
 
 
 #### Layout
 
-![image](finished_menu.png)
+![image](finished_layout.png)
+
+#### Reference
+Check out a [list of CSS Selectors](http://www.w3schools.com/cssref/css_selectors.asp) from W3 Schools.
 
 #### Reach Goals - More Advanced Selectors!
 
@@ -44,6 +53,13 @@ flag down an instructor right away.
   - All visited links should be colored pink
   - Remove the last div's background color, and use a border of your choice instead
   - Bold every 3rd `span` tag
+
+#### Super Reach Goal
+- Create a new `css` file called `no_class.css`
+- Link it up to your `index.html` and comment out the link to `style.css`
+- Remove both classes in `index.html` (ie. "class="appetizers-container" and class="entrees-container")
+- In `look_ma_no_class.css` work through the specs again, and see if you can use ONLY selectors to style your page without the help of classes.
+- Change the 2nd and 3rd div backgrounds to darkblue
 
 ## Submitting Your Work
 
